@@ -1,0 +1,10 @@
+# Model files
+*.onnx
+*.json
+*.bin
+*.wav
+*.mp3
+*.m4a
+
+# Virtual environments
+.venv
