@@ -246,12 +246,14 @@ version = "0.1.0"
 source = { virtual = "." }
 dependencies = [
     { name = "kokoro-onnx" },
+    { name = "numpy" },
     { name = "soundfile" },
 ]
 
 [package.metadata]
 requires-dist = [
     { name = "kokoro-onnx", specifier = ">=0.1.0" },
+    { name = "numpy", specifier = ">=2.3.1" },
     { name = "soundfile", specifier = ">=0.13.1" },
 ]
 

@@ -6,5 +6,6 @@ readme = "README.md"
 requires-python = ">=3.12.2"
 dependencies = [
     "kokoro-onnx>=0.1.0",
+    "numpy>=2.3.1",
     "soundfile>=0.13.1",
 ]
